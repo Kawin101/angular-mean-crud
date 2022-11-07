@@ -12,7 +12,7 @@ let Student = new Schema({
         type: Number
     },
     major: {
-        type: String
+        type: Number
     }
 }, {
     collation: 'studens'

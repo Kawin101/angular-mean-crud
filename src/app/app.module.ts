@@ -5,11 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AddStudentComponent } from './components/add-student/add-student.component';
 import { StudentDetailComponent } from './components/student-detail/student-detail.component';
-import { StudentListComponent } from './components/student-list/student-list.component';
+import { StudentsListComponent } from './components/students-list/students-list.component';
 
 // import Forms-Module 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+
 
 
 @NgModule({
@@ -17,7 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     AddStudentComponent,
     StudentDetailComponent,
-    StudentListComponent
+    StudentsListComponent
   ],
   imports: [
     BrowserModule,
