@@ -1,0 +1,37 @@
+<div class="container mt-3">
+    <div class="d-flex justify-content betweem flex-wrap flex-md-nowarp align-items-cent pt-2
+    pb-2 mb-3 border-bottom">
+        <h1>School List</h1> 
+    </div>
+    <div class="table-responsive">
+        <table class="table teble-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Schoolname</th>
+                    <th scope="col">description</th>
+                    <th scope="col">count</th>
+                    <th scope="col">year</th>
+                    <th class="txet-center" scope="col">action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let school of schools; let i = index">
+                    <th scope="col">{{school._id}}</th>
+                    <th scope="col">{{school.major_name}}</th>
+                    <th scope="col">{{school.description}}</th>
+                    <th scope="col">{{school.count}}</th>
+                    <th scope="col">{{school.year}}</th>
+                    <th class="text-center">
+                        <button class="btn btn-sm btn-warning" routerLink="/edit-school/{{school._id}}">Edit</button>
+                        <button class="btn btn-sm btn-danger" (click)="deleteSchool(school)">Delete</button>
+                    </th>
+                </tr>
+            </tbody>
+            
+              
+
+        </table>
+    </div>
+
+</div>

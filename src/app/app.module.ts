@@ -8,9 +8,9 @@ import { ReactiveFormsModule } from '@angular/forms'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AddStudentComponent } from './add-student/add-student.component';
-import { EditStudentComponent } from './edit-student/edit-student.component';
-import { ListStudentComponent } from './list-student/list-student.component';
+import { AddStudentComponent } from './components/studentcclass/add-student/add-student.component';
+import { EditStudentComponent } from './components/studentcclass/edit-student/edit-student.component';
+import { ListStudentComponent } from './components/studentcclass/list-student/list-student.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatMenuModule } from '@angular/material/menu';
 
@@ -29,7 +29,17 @@ import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 
 import { HttpClientModule } from '@angular/common/http';
-import {MatPaginatorModule} from '@angular/material/paginator';
+import { MatPaginatorModule } from '@angular/material/paginator';
+
+// Import Major Class
+import { AddMajorComponent } from './components/majorclass/add-major/add-major.component';
+import { EditMajorComponent } from './components/majorclass/edit-major/edit-major.component';
+import { ListMajorComponent } from './components/majorclass/list-major/list-major.component';
+
+// Import School Class
+import { AddSchoolComponent } from './components/schoolclass/add-school/add-school.component';
+import { EditSchoolComponent } from './components/schoolclass/edit-school/edit-school.component';
+import { ListSchoolComponent } from './components/schoolclass/list-school/list-school.component';
 
 
 
@@ -43,6 +53,12 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     LayoutComponent,
     HeaderComponent,
     SidenavListComponent,
+    AddMajorComponent,
+    EditMajorComponent,
+    ListMajorComponent,
+    AddSchoolComponent,
+    EditSchoolComponent,
+    ListSchoolComponent,
     
   ],
   imports: [

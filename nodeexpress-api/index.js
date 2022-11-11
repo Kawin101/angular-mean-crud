@@ -26,8 +26,12 @@ app.use(bodyParser.urlencoded({
 app.use(cors());
 
 const userRoute = require('./routes/student.routes')
+const majorRoute = require('./routes/major.routes')
+const schoolRoute = require('./routes/school.routes')
 
 app.use('/endpoint', userRoute);
+app.use('/majorapi', majorRoute);
+app.use('/schoolapi', schoolRoute);
 
 const port = process.env.PORT || 8000;
 

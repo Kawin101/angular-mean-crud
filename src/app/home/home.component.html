@@ -1,11 +1,27 @@
 <section fxLayout="column" fxFlexAlign="stretch">
     
     <mat-tab-group (selectedTabChange)="executeSelectedChange($event)">
-      <mat-tab label="Whoami" > 
-        <p>Your Welcome!</p> 
+      <mat-tab label="Major" > 
+        <section>
+          <div class="example-label my-3">Data Major</div>
+          <div class="example-button-row">
+            <a mat-raised-button class="mx-3" color="primary" 
+            routerLink="/add-major" >Add Major</a>
+            <a mat-raised-button class="mx-3" color="primary" 
+            routerLink="/list-major" >Show Major</a>
+          </div>
+        </section>
       </mat-tab>
-      <mat-tab label="Whoami">
-         <p>Your Welcome!</p>
-        </mat-tab>
+      <mat-tab label="School">
+        <section>
+          <div class="example-label my-3">Data School</div>
+          <div class="example-button-row">
+            <a mat-raised-button class="mx-3" color="primary" 
+            routerLink="/add-school" >Add School</a>
+            <a mat-raised-button class="mx-3" color="primary" 
+            routerLink="/list-school" >Show School</a>
+          </div>
+        </section>
+      </mat-tab>
     </mat-tab-group>
   </section>

@@ -1,0 +1,37 @@
+<div class="container mt-3">
+    <div class="d-flex justify-content betweem flex-wrap flex-md-nowarp align-items-cent pt-2
+    pb-2 mb-3 border-bottom">
+        <h1>Major List</h1> 
+    </div>
+    <div class="table-responsive">
+        <table class="table teble-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Majorname</th>
+                    <th scope="col">description</th>
+                    <th scope="col">count</th>
+                    <th scope="col">year</th>
+                    <th class="txet-center" scope="col">action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let major of majors; let i = index">
+                    <th scope="col">{{major._id}}</th>
+                    <th scope="col">{{major.major_name}}</th>
+                    <th scope="col">{{major.description}}</th>
+                    <th scope="col">{{major.count}}</th>
+                    <th scope="col">{{major.year}}</th>
+                    <th class="text-center">
+                        <button class="btn btn-sm btn-warning" routerLink="/edit-major/{{major._id}}">Edit</button>
+                        <button class="btn btn-sm btn-danger" (click)="deleteMajor(major)">Delete</button>
+                    </th>
+                </tr>
+            </tbody>
+            
+              
+
+        </table>
+    </div>
+
+</div>
