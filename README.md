@@ -1,3 +1,16 @@
+# How to Run
+> * Step0: Open MogoDB Compass
+> * Click "Connect" 
+
+> * Step1: Backend connect with Database
+> * cd/nodeexpress-api
+> * node index.js
+
+> * Step2: cd/angular-mean-crud
+> * ng serve
+
+
+
 # angular-mean-crud
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
