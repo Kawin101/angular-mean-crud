@@ -8,6 +8,18 @@
     <a mat-list-item routerLink="/list-student" (click)="onSidenavClose()">
         <mat-icon>list</mat-icon><span class="nav-caption">Show Student</span>
     </a>
+    <a mat-list-item routerLink="/add-major" (click)="onSidenavClose()">
+        <mat-icon>note_add</mat-icon> <span class="nav-caption">Add Major</span>   
+    </a>
+    <a mat-list-item routerLink="/list-major" (click)="onSidenavClose()">
+        <mat-icon>list</mat-icon><span class="nav-caption">Show Major</span>
+    </a>
+    <a mat-list-item routerLink="/add-school" (click)="onSidenavClose()">
+        <mat-icon>note_add</mat-icon> <span class="nav-caption">Add School</span>   
+    </a>
+    <a mat-list-item routerLink="/list-school" (click)="onSidenavClose()">
+        <mat-icon>list</mat-icon><span class="nav-caption">Show School</span>
+    </a>
 
     <mat-list-item [matMenuTriggerFor]="menu">
         <mat-icon>unfold_more</mat-icon>
