@@ -19,4 +19,4 @@ let majorSchema = new Schema({
     collection: 'majors'
 });
 
-module.exports = mongoose.model('c', majorSchema)
+module.exports = mongoose.model('MajorSchema', majorSchema)
