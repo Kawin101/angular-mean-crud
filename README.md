@@ -9,7 +9,22 @@
 > * Step2: cd/angular-mean-crud
 > * ng serve
 
+# Bio (Developer)
+> * นายกวินภพ ชมนิกร 633410142-5
+> * รายวิชา 935304: Web Application Programming (2022)
+> * สาขาวิชาวิทยการคอมพิวเตอร์และสารสนเทศ คณะสหวิทยาการ มหาวิทยาลัยขอนแก่น (CS: CIS#5)
 
+# Reference
+> * พัฒนา Web Application ด้วย JavaScript และ Node.js. (น.135-426). กรุงเทพฯ: 
+ซีเอ็ดยูเคชั่น, 2564. 
+> * Marinko Spasojevic. (2021). Getting Started With Angular Material. 4/11/2022, Retrieved from https://code-maze.com/get-started-angular-material/
+> * Marinko Spasojevic. (2020). Angular Material Navigation Menu – Complete Responsive Navigation. 4/11/2022, Retrieved from https://code-maze.com/angular-material-navigation/
+> * Code Maza. (2020). Angular Material Responsive Navigation Menu. 4/11/2022, Retrieved from https://youtu.be/SerD960-du8
+> * Tutorial Rays. (2022). NodeJs ExpressJs and Mongo DB CRUD | Node Express MogoDB Insert Update Delete | Rest API. 4/11/2022, Retrieved from https://youtu.be/RU-1JQ2bPFE
+> * Tutorial Rays. (2022). MEAN Stack CRUD | Angular 12 /13 NodeJs ExPressJs MongoDb Insert Update Delete | Angular 13 Tutorial.
+4/11/2022, Retrieved from https://youtu.be/o2HxDnPz7xY
+> * Patiphan Phengpao. (2022). สอน Angular 11 สร้างระบบ CRUD ด้วย MEAN Stack. 4/11/2022, Retrieved from https://youtu.be/rlBFqtQ-qaQ
+Code Maze. (2022). Angular Material Responsive Navigation Menu. 4/11/2022, Retrieved from https://youtu.be/SerD960-du8
 
 # angular-mean-crud
 
