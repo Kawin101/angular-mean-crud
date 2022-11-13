@@ -1,4 +1,5 @@
-# How to Run (Angular14, DB: MongoDB 5.0.13, Node: 14.15.1, npm: 8.19)
+# How to Run 
+> * (Angular14, DB: MongoDB 5.0.13, Node: 14.15.1, npm: 8.19)
 > * Step0: Open MogoDB Compass
 > * Click "Connect" 
 
